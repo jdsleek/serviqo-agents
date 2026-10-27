@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "status": "PENDING_CALENDAR_ATTESTATIONS_NOT_VERIFIED_BITCOIN_TIMESTAMP",
+  "bundle_public_commit": "a58f33b7a9cc4b994fdcd68b2d8cf7dfa2f4c5ac",
+  "bundle_manifest_sha256": "0a351dbbee5af33deec8cfb4b8376af90dedbc81eafe1700ee1384bade259b49",
+  "proof_file": "manifest.json.ots",
+  "proof_sha256": "cedc05c75ecd74d0f946c8f533b6f1e5c123df79951718d7f24ca3f5c6273e49",
+  "client": "opentimestamps-client 0.7.2",
+  "requested_at": "2026-10-27T02:49:11.330717+00:00",
+  "returned_at": "2026-10-27T02:49:13.482571+00:00",
+  "request_times_are": "operator clock observations; not independently certified event times",
+  "calendars_requested": [
+    "https://alice.btc.calendar.opentimestamps.org",
+    "https://bob.btc.calendar.opentimestamps.org",
+    "https://finney.calendar.eternitywall.com"
+  ],
+  "minimum_replies": 2,
+  "fee_paid": 0,
+  "wallet_used": false,
+  "file_contents_uploaded": false,
+  "verified_bitcoin_attestation": false,
+  "independent_distribution_claim": false,
+  "original_acceptance_unchanged": true,
+  "next_check": "Upgrade a retained COPY and independently verify after calendar batching; retain this initial proof. Pending acceptance must not be reported as a confirmed timestamp.",
+  "pending_attestations_returned": 3
+}

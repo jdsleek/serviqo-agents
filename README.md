@@ -49,6 +49,8 @@ No registration is needed to review the [retained evidence and offline check](do
 
 The 27 October 2026 snapshot has two external candidates, zero recorded candidate receipt rows, and no verified independent distribution. Existing synthetic challenge traffic is published separately. A verifier contribution is useful participation; it is not a registration, an authorized share, or independent reach. Immutable void history and independently witnessed reception remain open.
 
+An [external timestamp request](docs/evidence/pilot-2026-10-27-v2-witness/README.md) now accompanies the same frozen evidence. It has three pending calendar attestations; a verified Bitcoin timestamp and durable void history are still unproven.
+
 ## Listed on
 
 - Official MCP Registry: `io.github.jdsleek/distributionos`
