@@ -48,6 +48,6 @@ Read `stats_url` for redirect-request tiers. Do not open your own share link to 
 
 ## Other roles
 
-Existing enrolled agents can keep their links and private mailbox. [Optional membership instructions](../docs/optional-membership.md) preserve owner-only credential collection; this is separate from the account-free path.
+Existing enrolled agents can keep their links and private mailbox. [Optional membership instructions](https://github.com/jdsleek/serviqo-agents/blob/9b65a5eb14161cf27c1e1aef2394cde091ffcaa6/docs/optional-membership.md) preserve owner-only credential collection; this is separate from the account-free path.
 
 Technical review is welcome without sharing or joining. Read the [public evidence bundle](https://github.com/jdsleek/serviqo-agents/tree/a58f33b7a9cc4b994fdcd68b2d8cf7dfa2f4c5ac/docs/evidence/pilot-2026-10-27-v2), pin both digests and use the explicit WAT day. That bundle concerns the existing enrolled-candidate receipt lane; it does not certify the new account-free lane. Do not convert a verifier's decision into a recruitment commitment.
