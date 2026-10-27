@@ -1,0 +1,139 @@
+{
+  "schema": 1,
+  "purpose": "Operator-exported receipt snapshot for external verifier review",
+  "day": "2026-10-27",
+  "timezone": "WAT (UTC+01:00)",
+  "capture_started_at": "2026-10-27T02:28:42.528Z",
+  "capture_finished_at": "2026-10-27T02:28:46.970Z",
+  "timestamps": "Exporter clock observations; not an independent timestamp witness or atomic database snapshot.",
+  "pins": {
+    "rule_sha256": "f79b227ab7c99b4566e3ccfce944b77cac1085e56facc36736abd419505b824f",
+    "acceptance_sha256": "9caaa34ff4613f8c6d454c0fb33a83047a5045e0892d0dae82733c3b25183192",
+    "reference_sha256": "a3d1a8b33351a69e6f5d39566ddbeb9afe935c6a4d62cd0ce3314e29689ce0a6"
+  },
+  "files": {
+    "rule.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/rule",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:43.174Z",
+      "status": 200,
+      "bytes": 6301,
+      "sha256": "c2e3dd6f0ced8c981dd5438a11eb23a5682c16241e8ce849363951461641ccfa"
+    },
+    "reference.mjs": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/reference.mjs",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:43.458Z",
+      "status": 200,
+      "bytes": 668,
+      "sha256": "a3d1a8b33351a69e6f5d39566ddbeb9afe935c6a4d62cd0ce3314e29689ce0a6"
+    },
+    "candidates.json": {
+      "url": "https://agents.serviqo.co/api/v1/pilot/candidates",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:43.771Z",
+      "status": 200,
+      "bytes": 2274,
+      "sha256": "643f7ee21a287618a6570668f6cf6a93887ffa389217dda30055584b92af62e5"
+    },
+    "health.json": {
+      "url": "https://agents.serviqo.co/healthz",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:44.061Z",
+      "status": 200,
+      "bytes": 422,
+      "sha256": "fcc9e5b0c6afff1f8b205412a8410f83448d5911a91bf509c6e089d8cc36e306"
+    },
+    "counting-rules.json": {
+      "url": "https://agents.serviqo.co/api/v1/counting-rules",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:44.815Z",
+      "status": 200,
+      "bytes": 1813,
+      "sha256": "81f1766127a32c03d105de7718bc0958c5a7f61c6dacece7a68f93b49f3c8d39"
+    },
+    "win9tc0.rows.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/rows?day=2026-10-27&agent_code=win9tc0",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:45.174Z",
+      "status": 200,
+      "bytes": 144,
+      "sha256": "61d0360eb6702ba4e5bbda24c5a28ccf6cdf6855c7f1520172d9f4a12716d505"
+    },
+    "win9tc0.summary.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/summary?day=2026-10-27&agent_code=win9tc0",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:45.463Z",
+      "status": 200,
+      "bytes": 311,
+      "sha256": "04930741cfc80a1be7f0b754d8793439a18499d8094316db9a3798446766d7fc"
+    },
+    "labbgxx.rows.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/rows?day=2026-10-27&agent_code=labbgxx",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:45.764Z",
+      "status": 200,
+      "bytes": 144,
+      "sha256": "6903e9c5063d48129aa4b2b668127ae0f4e7a11f92bb33f9d501749137c271c8"
+    },
+    "labbgxx.summary.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/summary?day=2026-10-27&agent_code=labbgxx",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:46.061Z",
+      "status": 200,
+      "bytes": 311,
+      "sha256": "ed1479591326d9585fff6b7729c095c4f7647da445a9d6e4689885977f6fa509"
+    },
+    "challenge.rows.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/rows?day=2026-10-27&agent_code=challenge",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:46.360Z",
+      "status": 200,
+      "bytes": 291,
+      "sha256": "a092ec191189e1491ea56aef1048555f220ea894d5eaf328d439c1002878d6dd"
+    },
+    "challenge.summary.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/summary?day=2026-10-27&agent_code=challenge",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:46.662Z",
+      "status": 200,
+      "bytes": 313,
+      "sha256": "64a6cdea319ceac9d1c2b049fc1eb98839d605398b470abcfa9659a7c806e550"
+    },
+    "rule-at-end.json": {
+      "url": "https://agents.serviqo.co/api/v1/receipts/rule",
+      "method": "GET",
+      "observed_at": "2026-10-27T02:28:46.970Z",
+      "status": 200,
+      "bytes": 6301,
+      "sha256": "c2e3dd6f0ced8c981dd5438a11eb23a5682c16241e8ce849363951461641ccfa"
+    }
+  },
+  "lanes": [
+    {
+      "agent_code": "win9tc0",
+      "classification": "external_candidate",
+      "rows_file": "win9tc0.rows.json",
+      "summary_file": "win9tc0.summary.json"
+    },
+    {
+      "agent_code": "labbgxx",
+      "classification": "external_candidate",
+      "rows_file": "labbgxx.rows.json",
+      "summary_file": "labbgxx.summary.json"
+    },
+    {
+      "agent_code": "challenge",
+      "classification": "synthetic_challenge",
+      "rows_file": "challenge.rows.json",
+      "summary_file": "challenge.summary.json"
+    }
+  ],
+  "limitations": [
+    "Candidate classifications do not verify independent operation.",
+    "No source share or operator authorization is supplied by this export.",
+    "No immutable ledger, append-only void history, or guaranteed repository availability.",
+    "Sequential reads can race with live traffic; a disagreement fails verification.",
+    "The live rows API is limited to 5000 rows; a full-sized result is rejected as incomplete."
+  ]
+}
